@@ -1,13 +1,13 @@
 import React from 'react'
-
+import '../app/styles/heading.css';
 interface propsType {
     title: string;
 }
 
 const Heading: React.FC<propsType> = ({title}) => {
   return (
-    <div className='text-center text-4xl pb-8' data-aos="zoom-in-up">
-      <p className='border-b-4 inline-block pb-2'>{title}</p>
+    <div className='heading-container' data-aos="zoom-in-up">
+      <p className='heading-tittle'>{title}</p>
     </div>
   )
 }
