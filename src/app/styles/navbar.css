@@ -78,7 +78,7 @@
     .navbar-links{
         display:flex;
     }
-    .navbar-menu-icon{
+    .navbar-menu {
         display: none;
     }
 }

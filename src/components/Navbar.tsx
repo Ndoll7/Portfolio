@@ -24,7 +24,7 @@ const Navbar = () => {
             </ul>
 
             {/* hamburger manu icon */}
-            <div className='navbar-manu-icon' onClick={toggleMenu}>
+            <div className='navbar-menu-icon' onClick={toggleMenu}>
               {isMenuOpen ? <AiOutlineClose size={30}/> : 
               <AiOutlineMenu size={30}/>
               }
